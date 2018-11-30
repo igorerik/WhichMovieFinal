@@ -5,7 +5,6 @@ import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 public class TemplateActivity extends AppCompatActivity {
     @Override
@@ -22,9 +21,10 @@ public class TemplateActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.about_app:
-                Toast.makeText(getApplicationContext(), "by Maful Prayoga Arnandi - 16.11.0046", Toast.LENGTH_LONG).show();
+                Intent about = new Intent(this, AboutActivity.class);
+                startActivity(about);
                 break;
-            case R.id.now_playing:
+            case R.id.now_genre:
                 Intent main = new Intent(this, MainActivity.class);
                 startActivity(main);
                 break;

@@ -33,14 +33,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="25sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="@color/text_color_primary" />
 
             <TextView
                 android:layout_marginTop="20dp"
                 android:layout_below="@id/titleDescriptionTextView"
                 android:id="@+id/overviewDescriptionTextView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_color_secondary" />
 
         </RelativeLayout>
     </LinearLayout>

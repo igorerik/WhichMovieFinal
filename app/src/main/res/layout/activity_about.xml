@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".About">
+    tools:context=".AboutActivity">
 
     <GridLayout
         android:layout_width="match_parent"
@@ -13,7 +13,7 @@
         android:layout_margin="8dp"
         android:columnCount="2">
 
-        <!-- <TextView
+        <TextView
             android:id="@+id/criadopor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -21,10 +21,10 @@
             android:fontFamily="casual"
             android:gravity="center"
             android:padding="@dimen/padd"
-            android:text="@string/criadores"
+            android:text="Mimimimimi"
             android:textColor="@color/colorPrimary"
             android:textSize="18sp" />
-
+<!--
         <ImageView
             android:id="@+id/imageLays"
             android:layout_columnSpan="2"

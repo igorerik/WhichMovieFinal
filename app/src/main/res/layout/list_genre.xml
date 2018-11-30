@@ -5,9 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
-    android:minHeight="72dp"
     android:orientation="horizontal"
-    android:padding="10dp">
+    android:padding="20dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -20,11 +19,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:gravity="center"
-            android:paddingRight="16dp"
-            android:text="Judul"
-            android:textColor="#555555"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textColor="@color/text_color_primary"
+            android:textSize="16sp" />
     </RelativeLayout>
 
 </LinearLayout>

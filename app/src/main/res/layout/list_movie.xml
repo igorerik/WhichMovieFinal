@@ -29,9 +29,8 @@
             android:layout_gravity="top"
             android:paddingRight="16dp"
             android:textStyle="bold"
-            android:textColor="@android:color/background_dark"
             android:textSize="16sp"
-            android:text="Judul"/>
+            android:textColor="@color/text_color_primary" />
 
         <TextView
             android:layout_toRightOf="@id/posterPathImageView"
@@ -41,7 +40,7 @@
             android:layout_height="wrap_content"
             android:maxLines="3"
             android:paddingRight="16dp"
-            android:textColor="@android:color/background_dark" />
+            android:textColor="@color/text_color_secondary" />
 
         <TextView
             android:layout_toRightOf="@id/posterPathImageView"
@@ -50,8 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingRight="16dp"
-            android:textColor="@android:color/background_dark"
-            android:text="Tanggal"/>
+            android:textColor="@color/text_color_primary" />
 
 
 
@@ -78,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
-                android:text="5.0" />
+                android:textColor="@color/text_color_secondary" />
         </LinearLayout>
     </RelativeLayout>
 

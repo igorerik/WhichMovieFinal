@@ -1,5 +1,7 @@
 package br.com.eraf.whichmovie;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -24,41 +26,46 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends TemplateActivity {
 
-    private List<Genre> previsoes;
+    private List<Genre> genreList;
     private GenreAdapter adapter;
-    private ListView weatherListView;
+    private ListView genreListView;
     private ProgressBar progressBar;
-    private TextView genreNameTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setTitle(R.string.now_genre);
 
         progressBar = findViewById(R.id.progressBar);
+        genreList = new ArrayList<>();
+        genreListView = findViewById(R.id.genreListView);
 
-        previsoes = new ArrayList<>();
-        weatherListView = findViewById(R.id.weatherListView);
+        adapter = new GenreAdapter(this, genreList);
+        genreListView.setAdapter(adapter);
 
-        String end = getString(R.string.web_service_url_moviedb);
-        new ObtemTemperaturas().execute(end);
+        String end = getString(R.string.web_service_url_genre, getString(R.string.api_key), getString(R.string.lang));
+        new getGenres().execute(end);
 
-        weatherListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        genreListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this, previsoes.get(position).getId(), Toast.LENGTH_SHORT).show();
+                Genre genero = (Genre) genreListView.getItemAtPosition(position);
+                Intent intent = new Intent(MainActivity.this, MovieActivity.class);
+                intent.putExtra("idGenre", genero.genreId);
+                startActivity(intent);
             }
         });
     }
 
-    private class ObtemTemperaturas extends AsyncTask<String, Void, String> {
+    private class getGenres extends AsyncTask<String, Void, String> {
         @Override
         protected String doInBackground(String... enderecos) {
             try{
                 URL url = new URL(enderecos[0]);
-                HttpURLConnection connection = (HttpURLConnection)url.openConnection();
+                HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 InputStream inputStream = connection.getInputStream();
                 InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
                 BufferedReader reader = new BufferedReader(inputStreamReader);
@@ -80,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(String jsonS) {
-            previsoes.clear();
+            genreList.clear();
             try {
                 JSONObject json = new JSONObject(jsonS);
                 JSONArray list = json.getJSONArray("genres");
@@ -88,14 +95,13 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject previsao = list.getJSONObject(i);
                     int genreId = previsao.getInt("id");
                     String genreName = previsao.getString("name");
-                    Genre forecast =
-                            new Genre(genreId, genreName);
-                    previsoes.add(forecast);
+                    Genre forecast = new Genre(genreId, genreName);
+                    genreList.add(forecast);
                 }
                 //Toast.makeText(MainActivity.this, previsoes.toString(), Toast.LENGTH_SHORT).show();
-                adapter = new GenreAdapter(getApplicationContext(), previsoes);
-                weatherListView.setAdapter(adapter);
+                adapter.notifyDataSetChanged();
                 progressBar.setVisibility(View.INVISIBLE);
+
             } catch (JSONException e) {
                 e.printStackTrace();
             }

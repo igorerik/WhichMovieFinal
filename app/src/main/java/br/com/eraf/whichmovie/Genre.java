@@ -1,7 +1,7 @@
 package br.com.eraf.whichmovie;
 
 public class Genre {
-    private int genreId;
+    public final int genreId;
     public final String genreName;
 
     public Genre (int genreId, String genreName) {
@@ -15,6 +15,6 @@ public class Genre {
 
     @Override
     public String toString() {
-        return genreId + " - " + genreName;
+        return genreName;
     }
 }

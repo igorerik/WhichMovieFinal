@@ -1,3 +1,24 @@
 <resources>
+    <string name="lang">en-Us</string>
     <string name="app_name">Which Movie</string>
+    <string name="movie_description">Photo representation of movie</string>
+
+    <string name="filme">%s</string>
+    <string name="title_movie">%s</string>
+    <string name="lancamento">Launch: %s</string>
+    <string name="voto">Evaluation: %s</string>
+    <string name="detalhes">%s</string>
+
+
+    <string name="top_rated">Top Rated</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="setting_language">Setting Language</string>
+    <string name="about_app">About</string>
+
+
+    <string name="now_genre">Genre</string>
+    <string name="now_movie">Movie List</string>
+    <string name="now_movie_description">Movie Detail</string>
+
+    <string name="choose_genre">Choose Genre</string>
 </resources>

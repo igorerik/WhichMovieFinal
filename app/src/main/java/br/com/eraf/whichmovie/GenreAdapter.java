@@ -13,10 +13,8 @@ import java.util.List;
 
 public class GenreAdapter extends ArrayAdapter<Genre> {
 
-    private class ViewHolder{
-
+    private class ViewHolder {
         public TextView genreNameTextView;
-
     }
 
     public GenreAdapter (Context context, List<Genre> forecast){
@@ -34,13 +32,10 @@ public class GenreAdapter extends ArrayAdapter<Genre> {
             viewHolder = new ViewHolder();
             convertView.setTag(viewHolder);
             viewHolder.genreNameTextView = convertView.findViewById(R.id.genreNameTextView);
-
         }
         viewHolder = (ViewHolder) convertView.getTag();
         Genre caraDaVez = getItem(position);
-
         viewHolder.genreNameTextView.setText(caraDaVez.genreName);
-
         return convertView;
     }
 }

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string translatable="false" name="web_service_url_moviedb">https://api.themoviedb.org/3/genre/movie/list?api_key=3a7b86c1a2c74c6f73e3dbf7ac668d5b&amp;language=en-US</string>
+</resources>

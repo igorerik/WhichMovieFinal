@@ -1,0 +1,6 @@
+O which movie foi desenvolvida na disciplina de Programação para Dispositivos Móveis da Fatec Ipiranga.
+Nele você encontrará um guia atual de filmes classificado por gênero (drama, terror, comedia e etc), Para encontrar o filme ideal primeiramente você deve escolher o gênero e abrirá uma lista de todos os filmes daquela categoria, ao clicar em qualquer filme da lista você será direcionado a outra tela em que conterá a descrição do filme, sinopse e avaliação de cada filme.
+Acabou os momentos de indecisão, com o which movie você terá um mundo inteiro em suas mãos. Um aplicativo totalmente inovador na qual você terá entretenimento no universo da sétima arte, você terá acesso a um mundo de fantasia, aventura e divertimento para você se distrair naqueles momentos em que a dúvida na hora de escolher um belo filme se instala.
+Prepare a pipoca, refrigerante e até a mesmo aquela bela e maravilhosa companhia. Está esperando o que? 
+É diversão Garantida!
+Baixe já Wich Movie e Tenha um Bom Filme!

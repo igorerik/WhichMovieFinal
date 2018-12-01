@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lang">pt-BR</string>
+    <string name="app_name">Which Movie</string>
+    <string name="movie_description">Foto representando o filme</string>
+
+    <string name="filme">%s</string>
+    <string name="title_movie">%s</string>
+    <string name="lancamento">Lançamento: %s</string>
+    <string name="voto">Avaliação: %s</string>
+    <string name="detalhes">%s</string>
+
+    <string name="top_rated">Mais Avaliados</string>
+    <string name="now_playing">Passando Agora</string>
+    <string name="setting_language">Alterar Idioma</string>
+    <string name="about_app">Sobre</string>
+
+    <string name="now_genre">Gênero</string>
+    <string name="now_movie">Filmes</string>
+    <string name="now_movie_description">Detalhes do Filme</string>
+
+    <string name="about_text_app">Não sabe qual filme escolher? O Which Movie te dá uma ajuda, você pode ver as informações sobre filmes e avaliação, tudo organizado por gênero.</string>
+    <string name="version_app">Version: 1.0</string>
+    <string name="creators_app">Criadores</string>
+    <string name="creator1">Aline Silva (contato)</string>
+    <string name="creator2">Erik Ferreira (contato)</string>
+</resources>

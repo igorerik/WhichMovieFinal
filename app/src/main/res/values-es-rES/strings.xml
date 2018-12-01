@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lang">es-ES</string>
+    <string name="app_name">Which Movie</string>
+    <string name="movie_description">Foto que representa la película</string>
+
+    <string name="filme">%s</string>
+    <string name="title_movie">%s</string>
+    <string name="lancamento">Lanzamiento: %s</string>
+    <string name="voto">Evaluación: %s</string>
+    <string name="detalhes">%s</string>
+
+    <string name="top_rated">Más valorados</string>
+    <string name="now_playing">En los cines</string>
+    <string name="setting_language">Cambiar idioma</string>
+    <string name="about_app">Acerca de</string>
+
+    <string name="now_genre">Género</string>
+    <string name="now_movie">Cine</string>
+    <string name="now_movie_description">Detalles de la película</string>
+
+    <string name="about_text_app">¿No sabe qué película elegir? The Movie le da una ayuda, usted puede ver la información sobre las películas y la evaluación, todo organizado por género.</string>
+    <string name="version_app">Versión: 1.0</string>
+    <string name="creators_app">Creadores</string>
+    <string name="creator1">Aline Silva (contacto)</string>
+    <string name="creator2">Erik Ferreira (contacto)</string>
+</resources>

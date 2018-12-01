@@ -9,16 +9,20 @@
     <string name="voto">Evaluation: %s</string>
     <string name="detalhes">%s</string>
 
-
     <string name="top_rated">Top Rated</string>
     <string name="now_playing">Now Playing</string>
     <string name="setting_language">Setting Language</string>
     <string name="about_app">About</string>
 
-
     <string name="now_genre">Genre</string>
     <string name="now_movie">Movie List</string>
     <string name="now_movie_description">Movie Detail</string>
 
-    <string name="choose_genre">Choose Genre</string>
+    <!-- <string name="about_text_app">Não sabe qual filme escolher? O Which Movie te dá uma ajuda, você pode ver as informações sobre filmes e avaliação, tudo organizado por gênero.</string> -->
+    <string name="about_text_app">Not sure which movie to choose? Which Movie gives you a hand, you can see information about movies and review, all organized by genre.</string>
+    <string name="version_app">Version: 1.0</string>
+    <string name="creators_app">Creators</string>
+    <string name="creator1">Aline Silva (contato)</string>
+    <string name="creator2">Erik Ferreira (contato)</string>
+
 </resources>

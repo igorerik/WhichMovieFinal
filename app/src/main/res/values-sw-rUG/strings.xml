@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lang">de-DE</string>
+    <string name="app_name">Which Movie</string>
+    <string name="movie_description">Foto, das den Film darstellt</string>
+
+    <string name="filme">%s</string>
+    <string name="title_movie">%s</string>
+    <string name="lancamento">Loslassen: %s</string>
+    <string name="voto">Bewertung: %s</string>
+    <string name="detalhes">%s</string>
+
+    <string name="top_rated">Meist gesehen</string>
+    <string name="now_playing">Jetzt drehen</string>
+    <string name="setting_language">Sprache ändern</string>
+    <string name="about_app">Über Wiki</string>
+
+    <string name="now_genre">Genre</string>
+    <string name="now_movie">Filme</string>
+    <string name="now_movie_description">Filmdetails</string>
+
+    <string name="about_text_app">Sie sind sich nicht sicher, welchen Film Sie wählen sollen? Welcher Film hilft Ihnen? Sie können Informationen zu Filmen und Besprechungen anzeigen, die alle nach Genre sortiert sind.</string>
+    <string name="version_app">Version: 1.0</string>
+    <string name="creators_app">contato</string>
+    <string name="creator1">Aline Silva (kontakt)</string>
+    <string name="creator2">Erik Ferreira (kontakt)</string>
+</resources>

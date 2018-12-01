@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lang">ja</string>
+    <string name="app_name">Which Movie</string>
+    <string name="movie_description">映画を代表する写真</string>
+
+    <string name="filme">%s</string>
+    <string name="title_movie">%s</string>
+    <string name="lancamento">リリース: %s</string>
+    <string name="voto">評価: %s</string>
+    <string name="detalhes">%s</string>
+
+    <string name="top_rated">ほとんど見た</string>
+    <string name="now_playing">インシアター</string>
+    <string name="setting_language">言語の変更</string>
+    <string name="about_app">Wikiについて</string>
+
+    <string name="now_genre">ジャンル</string>
+    <string name="now_movie">映画</string>
+    <string name="now_movie_description">映画の詳細</string>
+
+    <string name="about_text_app">どの映画を選ぶべきか分かりませんか？どの映画があなたに手を差し伸べるか、あなたは映画やレビューに関する情報をすべてジャンル別に整理して見ることができます。</string>
+    <string name="version_app">バージョン: 1.0</string>
+    <string name="creators_app">クリエイター</string>
+    <string name="creator1">Aline Silva (連絡先)</string>
+    <string name="creator2">Erik Ferreira (連絡先)</string>
+</resources>

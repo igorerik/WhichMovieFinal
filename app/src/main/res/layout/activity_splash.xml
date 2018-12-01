@@ -5,8 +5,8 @@
 
     <ImageView
         android:id="@+id/imgLogo"
-        android:layout_width="186dp"
-        android:layout_height="118dp"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
         android:layout_centerInParent="true"
         android:src="@drawable/logo_whish_movie" />
 

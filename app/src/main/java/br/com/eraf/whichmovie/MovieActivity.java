@@ -26,7 +26,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MovieActivity  extends AppCompatActivity {
+public class MovieActivity  extends TemplateActivity {
 
     private List<Movie> movieList;
     private MovieAdapter movieAdapter;

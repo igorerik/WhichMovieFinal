@@ -11,64 +11,77 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="8dp"
-        android:columnCount="2">
+        android:columnCount="1">
 
         <TextView
-            android:id="@+id/criadopor"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_columnSpan="1"
-            android:fontFamily="casual"
-            android:gravity="center"
-            android:padding="@dimen/padd"
-            android:text="Mimimimimi"
-            android:textColor="@color/colorPrimary"
-            android:textSize="18sp" />
-<!--
-        <ImageView
-            android:id="@+id/imageLays"
-            android:layout_columnSpan="2"
-            android:layout_gravity="left|center_horizontal|fill_horizontal"
-            android:layout_marginTop="35dp"
-            android:elevation="@dimen/padd"
-            android:padding="@dimen/padd"
-            app:srcCompat="@mipmap/lays" />
-
-        <TextView
-            android:id="@+id/nomeLays"
+            android:id="@+id/nameAppAboutTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnSpan="2"
-            android:layout_gravity="center_horizontal|fill_horizontal"
-            android:fontFamily="casual"
+            android:layout_gravity="center_horizontal"
             android:gravity="center"
-            android:padding="@dimen/padd"
-            android:text="@string/lays"
-            android:textColor="@color/colorPrimary"
-            android:textSize="18sp" />
-
-
-        <ImageView
-            android:id="@+id/imageLuiz"
-            android:layout_columnSpan="2"
-            android:layout_gravity="left|center_horizontal|fill_horizontal"
-            android:elevation="@dimen/padd"
-            android:padding="@dimen/padd"
-            app:srcCompat="@mipmap/luiz" />
+            android:textColor="@color/text_color_primary"
+            android:text="@string/app_name"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="22sp" />
 
         <TextView
-            android:id="@+id/nomeLuiz"
+            android:id="@+id/versionTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnSpan="2"
-            android:layout_gravity="center_horizontal|fill_horizontal"
-            android:fontFamily="casual"
+            android:layout_gravity="center_horizontal"
             android:gravity="center"
-            android:padding="@dimen/padd"
-            android:text="@string/luiz"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/text_color_primary"
+            android:text="@string/version_app"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/aboutTextAppTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/text_color_primary"
+            android:text="@string/about_text_app"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
             android:textSize="18sp" />
--->
+
+        <TextView
+            android:id="@+id/creatorsAppTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/text_color_primary"
+            android:text="@string/creators_app"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/creator1TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/text_color_primary"
+            android:text="@string/creator1"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/creator2TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/text_color_primary"
+            android:text="@string/creator2"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp" />
+
+        s
     </GridLayout>
 
 </LinearLayout>

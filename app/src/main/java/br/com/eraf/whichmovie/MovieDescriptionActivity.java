@@ -17,7 +17,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class MovieDescriptionActivity extends AppCompatActivity {
+public class MovieDescriptionActivity extends TemplateActivity {
     private TextView overviewDescriptionTextView;
     private TextView titleDescriptionTextView;
     private ImageView backdropPathImageView;
